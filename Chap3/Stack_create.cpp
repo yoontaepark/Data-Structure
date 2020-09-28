@@ -1,9 +1,5 @@
-#include <iostream>
-
-int main()
-{
-#define STACK_SIZE 10
-	typedef int element;
-	element stack[STACK_SIZE];
-	int top = -1;
-}
+#define stack_size 10
+typedef int element;
+element stack[stack_size];
+int top = -1;
+int item = 400;
