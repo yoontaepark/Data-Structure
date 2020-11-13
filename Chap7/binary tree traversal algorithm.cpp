@@ -23,5 +23,3 @@ void postorder(struct node *tree_ptr){
     printf("%d", tree_ptr→info);
   }
 }
-
-
