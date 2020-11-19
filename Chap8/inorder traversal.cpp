@@ -6,3 +6,4 @@ void inorder(struct TNode *firstin){
     p = p→right_thread;
   }
 }
+
