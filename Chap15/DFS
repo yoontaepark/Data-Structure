@@ -1,0 +1,6 @@
+// Depth First Search
+Void DFS(int v){
+  int w;
+  extern int VISITED[];
+  VISITED[v] = 1;
+  
