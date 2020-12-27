@@ -1,6 +1,10 @@
 // Depth First Search
+// Using Circular Reference
 Void DFS(int v){
   int w;
   extern int VISITED[];
   VISITED[v] = 1;
-  
+  while(v에 인접한 모든 노드 w)
+    if(!VISITED[w])
+      DFS(w);
+}
