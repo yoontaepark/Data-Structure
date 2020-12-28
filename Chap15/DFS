@@ -1,6 +1,6 @@
 // Depth First Search
 // Using Circular Reference
-Void DFS(int v){
+void DFS(int v){
   int w;
   extern int VISITED[];
   VISITED[v] = 1;
@@ -8,3 +8,6 @@ Void DFS(int v){
     if(!VISITED[w])
       DFS(w);
 }
+
+// Using stack directly
+void
