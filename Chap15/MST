@@ -14,3 +14,15 @@ void prim(){
   }
 } 
   
+// Kruskal Algorithm
+void kruskal(){
+  while (T가 n-1개보다 적은 간선을 포함하고 E가 공집합이 아님){
+    E로부터 최소 비용인 간선 {v,w}를 선택;
+    E에서 간선 {v,w}를 제거;
+    if ({v,w}가 T내에서 사이클을 생성 안함)
+      T = T ∪ {{v,w}};
+    else
+      간선 {v,w}를 버림;
+  }
+}
+
